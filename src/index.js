@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import appTheme from './config/theme'
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from "@mui/material/CssBaseline";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={appTheme}>
+      <CssBaseline/>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

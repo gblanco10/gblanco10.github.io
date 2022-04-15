@@ -1,23 +1,53 @@
-import logo from './logo.svg';
 import './App.css';
+import ResponsiveAppBar from './components/app-bar.component'
+
+import { Grid } from '@mui/material';
+import { makeStyles } from '@mui/styles';
+
+import Intro from './components/intro.component'
+
+const useStyles = makeStyles((theme) => ({
+  section: {
+      padding: '16px 8px',
+  },
+  headSection:{
+    color:theme.palette.primary.main
+  }
+}));
 
 function App() {
+  const classes = useStyles();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ResponsiveAppBar />
+      <Grid container direction='column'>
+        <Grid item className={classes.section}>
+          <Intro 
+            classes={classes}
+          />
+        </Grid>
+        <Grid item class={classes.section}>
+          <div id='exp' style={{ background: 'green', height: 900 }}>
+            Experience
+          </div>
+        </Grid>
+        <Grid item className={classes.section}>
+          <div id='pub' style={{ background: 'yellow', height: 900 }}>
+            Pubblications
+          </div>
+        </Grid>
+        <Grid item className={classes.section}>
+          <div id='pro' style={{ background: 'blue', height: 900 }}>
+            Projects
+          </div>
+        </Grid>
+        <Grid item className={classes.section}>
+          <div id='con' style={{ background: 'green', height: 900 }}>
+            Contacts
+          </div>
+        </Grid>
+      </Grid>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { Grid } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 
 import Intro from './components/intro.component'
+import Contacts from './components/contacts-component';
 
 const useStyles = makeStyles((theme) => ({
   section: {
@@ -43,9 +44,14 @@ function App() {
           </div>
         </Grid>
         <Grid item className={classes.section}>
-          <div id='con' style={{ background: 'green', height: 900 }}>
+          {/* <div id='con' style={{ background: 'green', height: 900 }}>
             Contacts
-          </div>
+          </div> */}
+          <Grid id='con' item className={classes.section}>
+          <Contacts 
+            classes={classes}
+          />
+        </Grid>
         </Grid>
       </Grid>
     </div>

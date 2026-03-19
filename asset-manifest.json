@@ -1,16 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.75a6cda6.js",
+    "main.js": "/static/js/main.0bbd4914.js",
     "static/js/787.c0841a6b.chunk.js": "/static/js/787.c0841a6b.chunk.js",
+    "static/media/turin_house.png": "/static/media/turin_house.7a0b7821cf2c822b4943.png",
+    "static/media/impact.png": "/static/media/impact.06ddbad8e872a7fce6af.png",
     "static/media/main_photo.png": "/static/media/main_photo.b68ba93404e7ef24d7f9.png",
+    "static/media/spaceitup.png": "/static/media/spaceitup.b4f8e1cd8b262da18e22.png",
+    "static/media/reevaluate.png": "/static/media/reevaluate.ebe065dcb7c3d261e695.png",
+    "static/media/guardians.jpg": "/static/media/guardians.dba29bdaaaf5724e6f34.jpg",
+    "static/media/faster.jpg": "/static/media/faster.3fdc3ecc0cfce86c0005.jpg",
+    "static/media/vitigeoss.png": "/static/media/vitigeoss.1a11ae4c47a993bd8fdf.png",
+    "static/media/inventa.jpg": "/static/media/inventa.900bce62640ccd3c3c33.jpg",
+    "static/media/up2030.jpeg": "/static/media/up2030.19ff1acce4b2c15dc02a.jpeg",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.75a6cda6.js.map": "/static/js/main.75a6cda6.js.map",
+    "main.0bbd4914.js.map": "/static/js/main.0bbd4914.js.map",
     "787.c0841a6b.chunk.js.map": "/static/js/787.c0841a6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.75a6cda6.js"
+    "static/js/main.0bbd4914.js"
   ]
 }

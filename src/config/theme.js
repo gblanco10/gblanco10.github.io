@@ -3,20 +3,27 @@ import { createTheme } from '@mui/material/styles';
 const appTheme = createTheme({
   palette: {
     background:{
-      default:'#f0f7fa'
+      default:'#F5F5F7',
+      paper:'#ffffff',
+      footer:'#63abd3',
     },
     primary: {
-      main: '#335384ff',
-      light: '#637fb4',
-      dark: '#002b57',
+      main:'#303F9F',
+      light: '#7986CB',
+      dark: '#1A237E',
       contrastText: '#ffffff'
     },
     secondary: {
-      main: '#bf211e',
-      light: '#f95947',
-      dark: '#870000',
+      main: '#df40fb',
+      light: '#f2b7fc',
+      dark: '#b300e9',
       contrastText: '#ffffff'
     },
+    text:{
+      primary:'##212121',
+      secondary:'#757575',
+      contrast:'#ffffff'
+    }
   },
   typography:{
     fontFamily:'Roboto',
